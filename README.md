@@ -2,7 +2,7 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-> Documentation for 3rd party developers who would like to build on top of pangea
+> Documentation for 3rd party developers who would like to build on top of pangea [here](https://pangea-development-documentation.readthedocs.io/)
 
 ## Table of Contents
 
@@ -18,8 +18,7 @@ In order to work on the documentation you need to get [mkdocs](https://mkdocs.re
 
 ## Usage
 
-```
-```
+- `mkdocs serve` to build and reload the documentation
 
 ## Maintainers
 
