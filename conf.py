@@ -1,3 +1,5 @@
+from recommonmark.parser import CommonMarkParser
+
 # -*- coding: utf-8 -*-
 #
 # Configuration file for the Sphinx documentation builder.
@@ -153,3 +155,9 @@ texinfo_documents = [
      author, 'PangeaDeveloperDocumentation', 'One line description of project.',
      'Miscellaneous'),
 ]
+
+source_parsers = {
+    '.md': CommonMarkParser,
+}
+
+source_suffix = ['.rst', '.md']
