@@ -10,7 +10,7 @@
 ### _VM Functionality_
   75 words
 ### _Limitations & Throttling_
-  75 words                                   
+  75 words
 
 ## 2. Quickstart
 |  Quickstart Guide  |
@@ -28,7 +28,7 @@ Example "Send To" dapp (technically send/receive but simplified to "Send To")
 
  [Concept] Send To first determines who the "to" is by querying the chat and accepting input from the receiver in the chat; then deploys the "send" order to the specified wallet, drawing funds from the wallet specified by the user.
 
- [Requirement] "To" function and adding that information under Receiver. 
+ [Requirement] "To" function and adding that information under Receiver.
 
  [Example "To" specification] (add ``` later)
 [Upon execution] Send to chat "Receiver agrees to receive contract?"
@@ -73,7 +73,7 @@ contract Receiver {
  When Truffle first runs it (presumably) generates its first version and its first migration file.
  The Dapp Template is a clean slate for users for using the tools built by the Truffle and NPM projects but as expressed in the Pangea dapp engine, its SDK and as accessed through its CLI. The developer writes a program in app.js which is renamed according to the project nature (such as send/receive template) and fills out certain metadata about the program under package.json and configures the Truffle config file (more about Truffle)
 
-The dapp template interacts with the Pangea CLI, SDK. Users set the truffle.js or truffle-config.js as well as app.js and their package.json file. They alter certain parameters (version number, name, metadata, etc…) in the package.json file, they write the truffle.js 
+The dapp template interacts with the Pangea CLI, SDK. Users set the truffle.js or truffle-config.js as well as app.js and their package.json file. They alter certain parameters (version number, name, metadata, etc) in the package.json file, they write the truffle.js
 
 #### Package.json
  50 words
@@ -100,7 +100,7 @@ What is VMSigner.js?
 
 #### Javascript, Ethereum and Ether.js
  Discuss the importance of allowing the user to transpile languages, discuss the intersection between Truffle, JS, Ethereum and dapps. Discuss functionality and limits. 100 words
-#### UI 
+#### UI
  25-75 words. Discuss how the SDK deploys the UI, and how the back-end of dapps/engine expresses itself through our SDK and in Pangea by way of the UI.
 #### VM Introduction
  Introduce the VM functionality
@@ -130,7 +130,7 @@ What is VMSigner.js?
 
 ## 6. Limitations & Throttling
  100 words
-### _Limitations_ 
+### _Limitations_
  50 words
 #### Subone
  100 words
