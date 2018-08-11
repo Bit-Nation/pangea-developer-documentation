@@ -3,5 +3,6 @@ site_url: https://bitnation.co
 repo_url: https://github.com/Bit-Nation/pangea-developer-documentation
 site_dir: docs_build
 pages:
-  - Getting Started: index.md
+  - Introduction (worth reading): index.md
+  - Getting Started: getting_started.md
 theme: readthedocs
