@@ -5,4 +5,5 @@ site_dir: docs_build
 pages:
   - Getting Started: index.md
   - Docs: rough_doc.md
+  - Getting Started: getting_started.md
 theme: readthedocs
