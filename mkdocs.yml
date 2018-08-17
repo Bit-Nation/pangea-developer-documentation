@@ -4,6 +4,6 @@ repo_url: https://github.com/Bit-Nation/pangea-developer-documentation
 site_dir: docs_build
 pages:
   - Start here: index.md
-  - Docs: rough_doc.md
+  # - Docs: rough_doc.md
   - Hands on: hands_on.md
 theme: readthedocs
