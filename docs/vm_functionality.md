@@ -1,4 +1,4 @@
-The VM provides some utilits needed for DApp development.
+The VM provides some utilities needed for DApp development.
 
 ## ethereumAddress
 This is a constant representing the ethereum address of the user
@@ -25,7 +25,7 @@ The message payload must have the following properties:
 - `type <string>` a type of the message e.g. `SEND_MONEY` can be used for filtering later.
 
 ## setOpenHandler
-`setOpenHandler(handler <function>)` will set a handler that is called when the user opens the DApp.
+`setOpenHandler(handler <function>)` will set a handler that is called when the user open the DApp.
 
 ## setMessageRenderer
 `setMessageRenderer(renderer <function>)` will set a handler for rendering messages. The handler will be called with object (payload) and a callback.
@@ -33,7 +33,7 @@ The callback must be called with an error AND the JSX.
 
 ## newModalUIID
 `newModalUIID(closer <function>, callback <function>)` will create a new modal id which you can use to render a modal.
-The closer will be called once the modal get closed. The callback will be called with an error and the modal id.
+The closer will be called once the modal get closed. The callback will be called with an error and the modal ID.
 The modal ID can then be used to display a modal.
 
 ## db
