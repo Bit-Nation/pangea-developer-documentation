@@ -1,19 +1,4 @@
 ### Setup
-You need three things:
-
-__Pangea CLI__
-
-The [Pangea CLI](https://github.com/Bit-Nation/pangea-cli) is used to interact between your mobile device and your computer.
-
-__DApp Template__
-
-The [DApp Template](https://github.com/Bit-Nation/dapp-template) should be the base of every new project.
-
-
-### Quick start
-
-1. Get the latest DApp template from [here](https://github.com/Bit-Nation/dapp-template/releases)
-2. Get the pangea cli
-3. Get the pangea app
-4. Go to the setting screen after setting up an account
-5. Use "connect to host" in order to connect to your local computer
+In order to start developing you need the [pangea cli](https://github.com/Bit-Nation/pangea-cli) and the [DApp template](https://github.com/Bit-Nation/dapp-template/releases).
+The pangea cli will help you with development and the DApp template is a common base developed by bitnation to make DApp development easy. We advise new devs to use the DApp template.
+You can install the pangea cli via npm and the DApp template should be downloaded from the release page.
