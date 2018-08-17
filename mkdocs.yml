@@ -6,4 +6,5 @@ pages:
   - Start here: index.md
   # - Docs: rough_doc.md
   - Hands on: hands_on.md
+  - VM functionality: vm_functionality.md
 theme: readthedocs
