@@ -1,4 +1,4 @@
-# **Pangea "dApp Engine" Documentation**
+﻿# **Pangea "dApp Engine" Documentation**
 Welcome to the Pangea dApp engine non-technical documentation. This is provided for future developers and users of third-party dApps sold or distributed without charge in our Pangea dApp store, which we expect to have available early Q4, 2018.
 
 #### Index
@@ -40,45 +40,49 @@ Our virtual machine provides eight functions and four additional subfunctions. T
 |  For more information about Truffle, NPM or es2015 please check out the following links: https://truffleframework.com/docs, https://docs.npmjs.com/, https://babeljs.io/docs/en/learn/.
 
 ## 3. Prerequisites
+Developing a decentralized application may require a number of pre-requisite skills and knowledge. Here we suggest taking some of these classes - at least one per topic - to become familiar with the skills and knowledge necessary to develop decentralized applications.
 
 ##### Programming
 If you are going to develop decentralized applications, you must at least know how to write a program.
-http://www.programmingbasics.org/en/
+(https://www.khanacademy.org/computing/computer-programming)
+(http://www.programmingbasics.org/en/)
+(https://www.freebsd.org/doc/en/books/developers-handbook/tools-programming.html)
 
 ##### JS
 If you are going to develop in Solidity you need to know a little Javascript first.
 (https://www.udemy.com/the-complete-javascript-course/)
 (http://www.learn-js.org/)
-
-
-
-We may want to recommend the Udemy course as well. It’s far easier to follow than these docs
-
-We may also want to help people learn how to write JavaScript (the book I recommended) as well as the Udemy course on React Native
-
+(https://www.amazon.com/Smarter-Way-Learn-JavaScript-technology-ebook/dp/B00H1W9I6C)
 
 ##### JSON
 We regularly make use of .json files, as does Truffle in order to track build artifacts like package.json. 
 (https://www.w3schools.com/js/js_json_intro.asp)
+(https://www.tutorialspoint.com/json/)
+(https://learnxinyminutes.com/docs/json/)
 
 ##### React Native
 Reactive objects are a core feature of modern JavaScript.
 (https://www.udemy.com/the-complete-react-native-and-redux-course/)
 (http://bit.ly/react-native-redux)
+(https://www.edx.org/course/cs50s-mobile-app-development-with-react-native)
 
 ##### Blockchain
 If you are going to develop decentralized applications you should understand the underlying blockchain technology it operates upon.
 (https://developer.ibm.com/courses/all/blockchain-essentials/)
-
-Blockchain Applications: A Hands-On Approach:
+(https://www.coursera.org/learn/blockchain-basics)
+(https://www.edx.org/learn/blockchain-cryptography)
 (https://www.amazon.com/Blockchain-Applications-Hands-Arshdeep-Bahga/dp/0996025553)
 
 ##### Solidity
 You should be familiar with Solidity in order to program smart contracts.
-(https://www.udemy.com/best-solidity-tutorial-course-ethereum-blockchain-development/)
+(https://www.udemy.com/best-solidity-tutorial-course-ethereum-blockchain-development/)(https://www.udemy.com/best-solidity-tutorial-course-ethereum-blockchain-development/)
+(https://www.bitdegree.org/course/solidity-smart-contract)
+(https://blockgeeks.com/guides/solidity/)
  
 ##### Smart Contracts
 It’s worth further considering how to think about designing smart contracts.
+(https://www.udemy.com/your-first-decentralized-app/)
+(https://www.coursera.org/learn/smarter-contracts)
 (https://blockgeeks.com/guides/smart-contracts/)
 
 ## 4. Tools
@@ -273,10 +277,8 @@ Hopefully by the end of this document you have a pretty clear picture about how 
 ###### Configure your Truffle File
 (https://truffleframework.com/docs/truffle/reference/configuration)
 
-
 ###### Test your dApp
 (https://truffleframework.com/docs/truffle/testing/testing-your-contracts)
-
 
 ##### ES2015 
 Learn more about ES 2015 Features, Classes, Enhanced Object Literals and more,
