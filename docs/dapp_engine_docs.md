@@ -1,4 +1,4 @@
-# **Pangea "dApp Engine" Documentation**
+ï»¿# **Pangea "dApp Engine" Documentation**
 Welcome to the Pangea dApp engine non-technical documentation. This is provided for future developers and users of third-party dApps sold or distributed without charge in our Pangea dApp store, which we expect to have available early Q4, 2018.
 
 #### Index
@@ -16,10 +16,10 @@ Welcome to the Pangea dApp engine non-technical documentation. This is provided 
 
 We provide you a powerful sandbox of an ecosystem. Our SDK and our CLI together let you build and execute powerful decentralized application on our Pangea virtual machine.
 
-As new citizens join Bitnation and create nations (frequently thought of as “communities”) they will require applications to meet their needs efficiently. You will start with our documentation, our templates and our suggestions - but ultimately it is you who will build the million and billion dollar dApps of the future.
+As new citizens join Bitnation and create nations (frequently thought of as â€œcommunitiesâ€) they will require applications to meet their needs efficiently. You will start with our documentation, our templates and our suggestions - but ultimately it is you who will build the million and billion dollar dApps of the future.
 
 #### _Pre-requisites_
-For experienced developers, researching the technology necessary to make the best use of our services should be very easy with our document. But for the non-technical reader who hopes to design smart contracts, we have listed out a set of links which will help you wrap your mind around coding in Solidity for the blockchain, even if you’re a beginner.
+For experienced developers, researching the technology necessary to make the best use of our services should be very easy with our document. But for the non-technical reader who hopes to design smart contracts, we have listed out a set of links which will help you wrap your mind around coding in Solidity for the blockchain, even if youâ€™re a beginner.
 
 #### _Tools_
 We provide a software development kit, dApp templates and a command line interface to help you build decentralized applications in our system. By incorporating the Truffle migration method we can test and deploy your contracts using npm.
@@ -40,45 +40,49 @@ Our virtual machine provides eight functions and four additional subfunctions. T
 |  For more information about Truffle, NPM or es2015 please check out the following links: https://truffleframework.com/docs, https://docs.npmjs.com/, https://babeljs.io/docs/en/learn/.
 
 ## 3. Prerequisites
+Developing a decentralized application may require a number of pre-requisite skills and knowledge. Here we suggest taking some of these classes - at least one per topic - to become familiar with the skills and knowledge necessary to develop decentralized applications.
 
 ##### Programming
 If you are going to develop decentralized applications, you must at least know how to write a program.
-http://www.programmingbasics.org/en/
+(https://www.khanacademy.org/computing/computer-programming)
+(http://www.programmingbasics.org/en/)
+(https://www.freebsd.org/doc/en/books/developers-handbook/tools-programming.html)
 
 ##### JS
 If you are going to develop in Solidity you need to know a little Javascript first.
 (https://www.udemy.com/the-complete-javascript-course/)
 (http://www.learn-js.org/)
-
-
-
-We may want to recommend the Udemy course as well. It’s far easier to follow than these docs
-
-We may also want to help people learn how to write JavaScript (the book I recommended) as well as the Udemy course on React Native
-
+(https://www.amazon.com/Smarter-Way-Learn-JavaScript-technology-ebook/dp/B00H1W9I6C)
 
 ##### JSON
 We regularly make use of .json files, as does Truffle in order to track build artifacts like package.json. 
 (https://www.w3schools.com/js/js_json_intro.asp)
+(https://www.tutorialspoint.com/json/)
+(https://learnxinyminutes.com/docs/json/)
 
 ##### React Native
 Reactive objects are a core feature of modern JavaScript.
 (https://www.udemy.com/the-complete-react-native-and-redux-course/)
 (http://bit.ly/react-native-redux)
+(https://www.edx.org/course/cs50s-mobile-app-development-with-react-native)
 
 ##### Blockchain
 If you are going to develop decentralized applications you should understand the underlying blockchain technology it operates upon.
 (https://developer.ibm.com/courses/all/blockchain-essentials/)
-
-Blockchain Applications: A Hands-On Approach:
+(https://www.coursera.org/learn/blockchain-basics)
+(https://www.edx.org/learn/blockchain-cryptography)
 (https://www.amazon.com/Blockchain-Applications-Hands-Arshdeep-Bahga/dp/0996025553)
 
 ##### Solidity
 You should be familiar with Solidity in order to program smart contracts.
-(https://www.udemy.com/best-solidity-tutorial-course-ethereum-blockchain-development/)
+(https://www.udemy.com/best-solidity-tutorial-course-ethereum-blockchain-development/)(https://www.udemy.com/best-solidity-tutorial-course-ethereum-blockchain-development/)
+(https://www.bitdegree.org/course/solidity-smart-contract)
+(https://blockgeeks.com/guides/solidity/)
  
 ##### Smart Contracts
-It’s worth further considering how to think about designing smart contracts.
+Itâ€™s worth further considering how to think about designing smart contracts.
+(https://www.udemy.com/your-first-decentralized-app/)
+(https://www.coursera.org/learn/smarter-contracts)
 (https://blockgeeks.com/guides/smart-contracts/)
 
 ## 4. Tools
@@ -96,7 +100,7 @@ In your package.json file, you have the opportunity to fill in the metadata of y
 Your truffle.js file allows you to exploit the Truffle framework! Check http://truffleframework.com/docs/advanced/configuration for information about how to configure your truffle.js or truffle-config.js file.
 
 #### App.js
-This should be where you build your smart contract. Replace the “app” in “app.js” with the name of your dApp! The beginning of the program includes the code,
+This should be where you build your smart contract. Replace the â€œappâ€ in â€œapp.jsâ€ with the name of your dApp! The beginning of the program includes the code,
 
 ```import pangea from 'pangea-sdk'
 const {
@@ -110,10 +114,10 @@ const {
 } = pangea;
 ```
 
-Do not remove this from the program. However, you will notice a demonstration program after beginning with declaring a class of “demomodal.” This section can be completely replaced with whichever smart contracts you hope to execute on our blockchain.
+Do not remove this from the program. However, you will notice a demonstration program after beginning with declaring a class of â€œdemomodal.â€ This section can be completely replaced with whichever smart contracts you hope to execute on our blockchain.
 
 ### _CLI_
-A large set of functions are provided by the CLI (“command line interface”) at once provide test nodes and others declare certain functions like setting passwords or certain keys. The CLI is a larger, more complex program flowing out into the SDK to provide certain functions to dApp developers, and from there into the Pangea VM.
+A large set of functions are provided by the CLI (â€œcommand line interfaceâ€) at once provide test nodes and others declare certain functions like setting passwords or certain keys. The CLI is a larger, more complex program flowing out into the SDK to provide certain functions to dApp developers, and from there into the Pangea VM.
 
 To check out how to use our CLI in the terminal, check out:
 (https://github.com/Bit-Nation/pangea-cli)
@@ -156,7 +160,7 @@ contract Receiver {
    Receive(msg.value);
  }
 }
-(contract from “https://medium.com/daox/three-methods-to-transfer-funds-in-ethereum-by-means-of-solidity-5719944ed6e9”)
+(contract from â€œhttps://medium.com/daox/three-methods-to-transfer-funds-in-ethereum-by-means-of-solidity-5719944ed6e9â€)
 ```
 
 ### _Concept Smart Contracts_
@@ -178,7 +182,7 @@ contract Receiver {
 8. Donation    
   * A smart contract which requests a small, specified donation, such as the cost of the contract plus enough ETH to make another donation request.
 9. Join Nation
-  * Submits a request to a user to join a nation. The user doesn’t need to visit the nation page to do this if the dApp is written right. Instead, the user will automatically join the nation if they are convinced to respond “yes” to the request.
+  * Submits a request to a user to join a nation. The user doesnâ€™t need to visit the nation page to do this if the dApp is written right. Instead, the user will automatically join the nation if they are convinced to respond â€œyesâ€ to the request.
 10. Census
   * dApp queries all Nation members with Census request.
 Users agree or decline census.
@@ -187,11 +191,11 @@ dApp sends user to third-party app in order to complete the census.
 ## 6. Monetize your dApp!
  In the future sharding and plasma may reduce the cost of executing a smart contract from $37,000/gig to $37 per gig. Until then, we have to be frugal and find ways to ensure there is always value coming in to cover the expense of executing a smart contract. Here are a few ideas for developers with regards to ways to generate income through dApps.
 ### _Gambling_
- By writing smart contracts which run simple gambling games, a share of all winnings can be taken by those who host the gambling operation. Nations and cities around the world are able to provide excellent services owing to honest and well-regulated gambling establishments. Software solutions executed on a blockchain will likely be even more transparent and trustworthy for managing gambling. Any nation can permit particular dApps to be the nations’ accepted modes of gambling and in doing so, may work with dApp developers to make large amounts of money.
+ By writing smart contracts which run simple gambling games, a share of all winnings can be taken by those who host the gambling operation. Nations and cities around the world are able to provide excellent services owing to honest and well-regulated gambling establishments. Software solutions executed on a blockchain will likely be even more transparent and trustworthy for managing gambling. Any nation can permit particular dApps to be the nationsâ€™ accepted modes of gambling and in doing so, may work with dApp developers to make large amounts of money.
 ### _Service Exchange_
  Service exchange platforms like Freelance and Uber provide income for services and hosting the network of service sellers and buyers. dApp developers should find ways to create ecosystems for skills and abilities and for which skilled and knowledgeable people can sell their services either individually or as a holon to customers. In doing so, nations and dApp designers can gain income for business operating with their dApps or within their nations.
 ### _Digital Assets Buy/Sell Inventories_
- Using the same collector’s rationale as with modern-day antique and collectable stores and shows, dApp developers might find efficient ways to store and display rare cryptoassets. People who amass large amounts of high-value cryptoassets, they could control the price of rare assets and sell them into markets of interested people. These buy/sell relationships may be able to bring in self-sufficient funding for developers and nations.
+ Using the same collectorâ€™s rationale as with modern-day antique and collectable stores and shows, dApp developers might find efficient ways to store and display rare cryptoassets. People who amass large amounts of high-value cryptoassets, they could control the price of rare assets and sell them into markets of interested people. These buy/sell relationships may be able to bring in self-sufficient funding for developers and nations.
 
 ## 7. VM Functionality
  Our virtual machine provides you eight powerful functions, one of which bears four subfunctions. We will be expanding our Virtual Machine functionality section with clearer descriptions in the near future. Until then, here is a list of the current functions and subfunctions available to you through our virtual machine.
@@ -229,7 +233,7 @@ You might deploy this in the following state:
 db.delete("the-key-of-the-value", () => { I will be called after deleting}
 
 ## 8. Conclusion
-Hopefully by the end of this document you have a pretty clear picture about how designing decentralized applications in our Pangea architecture works. As with all new technologies, developing on Pangea means learning new tricks and tools for your trade. But armed with what we’ve given you, you can go out and develop the next million or billion dollar decentralized application. Questions? Feedback? We would love to hear from you at (insert e-mail address here) or on our telegram at (http://telegram.me/bitnation).
+Hopefully by the end of this document you have a pretty clear picture about how designing decentralized applications in our Pangea architecture works. As with all new technologies, developing on Pangea means learning new tricks and tools for your trade. But armed with what weâ€™ve given you, you can go out and develop the next million or billion dollar decentralized application. Questions? Feedback? We would love to hear from you at info@bitnation.co or on our telegram at (http://telegram.me/bitnation).
 
 ## 9. Relevant Links
 
@@ -273,10 +277,8 @@ Hopefully by the end of this document you have a pretty clear picture about how 
 ###### Configure your Truffle File
 (https://truffleframework.com/docs/truffle/reference/configuration)
 
-
 ###### Test your dApp
 (https://truffleframework.com/docs/truffle/testing/testing-your-contracts)
-
 
 ##### ES2015 
 Learn more about ES 2015 Features, Classes, Enhanced Object Literals and more,
