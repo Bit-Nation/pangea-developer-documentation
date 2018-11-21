@@ -37,7 +37,7 @@ Our virtual machine provides eight functions and four additional subfunctions. T
 | ------------------ |
 |  If you've got access to a Linux you can download and install our CLI by inputting npm install pangea-cli -g. |
 |  You can download our dApp template at https://github.com/Bit-Nation/dApp-template. Edit the truffle.js or truffle-config.js as well as app.js and their package.json file in order to build your first dApp. |
-|  For more information about Truffle, NPM or es2015 please check out the following links: https://truffleframework.com/docs, https://docs.npmjs.com/, https://babeljs.io/docs/en/learn/.
+|  For more information about Truffle, npm or es2015 please check out the following links: https://truffleframework.com/docs, https://docs.npmjs.com/, https://babeljs.io/docs/en/learn/.
 
 ## 3. Prerequisites
 Developing a decentralized application may require a number of pre-requisite skills and knowledge. Here we suggest taking some of these classes - at least one per topic - to become familiar with the skills and knowledge necessary to develop decentralized applications.
@@ -257,11 +257,11 @@ Hopefully by the end of this document you have a pretty clear picture about how 
 (https://github.com/Bit-Nation/pangea-sdk/blob/master/src/index.js)
 
 
-##### NPM
-###### What is NPM?
+##### npm
+###### What is npm?
 (https://www.npmjs.com/)
 
-###### NPM Documentation
+###### npm Documentation
 (https://docs.npmjs.com/)
 
 ###### Working With
