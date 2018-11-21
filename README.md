@@ -22,7 +22,7 @@ In order to work on the documentation you need to get [mkdocs](https://mkdocs.re
 
 ## Maintainers
 
-[@florianlenz](https://github.com/florianlenz)
+[@I-Voyager](https://github.com/I-Voyager)
 
 ## Contribute
 
